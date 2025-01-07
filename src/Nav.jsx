@@ -18,7 +18,7 @@ function Nav() {
 
                 <ul class=" rt container-fluid nav  ">
         <li class="nav-item">
-            <Link to ="/" class="nav-link "> About me </Link>
+            <Link to ="/Portfolio" class="nav-link "> About me </Link>
         </li>
         <li class="nav-item">
         <Link to ="/Resume" class="nav-link "> Resume </Link>
