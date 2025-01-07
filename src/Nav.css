@@ -1,0 +1,66 @@
+.nv{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.tt{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+.bl1{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rt{
+    margin-top: -10px;
+    color: rgb(0, 0, 0) !important;
+    
+}
+.left{
+    width: fit-content;
+    margin-left: 10px;
+}
+
+nav ul li a:hover{
+    color: #ffffff!important;
+    }
+
+    .nav-link
+    {
+        text-decoration: none;
+        
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }    
+  span{
+    font-size: small;
+  }
+
+ /* nav bar end */
+
+
+   
+   
+
+ 
+
+        
+        
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+.main3{
+    background: rgb(121, 176, 254);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.bbb{
+    margin-bottom: 180px;
+}
+
+
+.pra{
+    width: 70%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+.la{
+    height: fit-content;
+    width: 55%;
+    box-shadow: none;
+    margin-top: 50px;
+}
+
+.fluids{
+background-image: url("https://th.bing.com/th/id/R.10f5371bed4465ccf8b2bea93a732e6c?rik=RFXRPiO%2fZrMsLg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-Q5gpNncFYb0%2fVXuRmA2vgDI%2fAAAAAAAAvXI%2fT93VMrnNlTQ%2fs1600%2f1.png&ehk=jZTA284ng9Bd4kPTxI%2fNi2%2bvDa3ySgj3rIa6IANXbhg%3d&risl=&pid=ImgRaw&r=0" )  ;
+background-size:cover;
+background-repeat: no-repeat;
+/* height: fit-content; */
+/* background-size: 100% 100%; */
+
+  
+}
+
+.card-title{
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 35px;
+    color: #0050ff;
+
+}
+
+.card-texts{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: medium;
+}
+
+.card-text{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card-body{
+    box-shadow: inset 10px 0px 0px rgb(39, 2, 247);
+    height: 20%;
+
+}
