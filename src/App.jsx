@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <Nav />
     <Routes>
-    <Route path='/' index element = {<About_me/>}/>
+    <Route path='/Portfolio'  element = {<About_me/>}/>
     <Route path='/Resume' index element = {<Resume/>}/>
     <Route path='/Projects' index element = {<Projects/>}/>
     <Route path='/Contact' index element = {<Contact/>}/>
