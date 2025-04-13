@@ -1,0 +1,38 @@
+.gt{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.btn{
+    height: 70px;
+    width: 200px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.space{
+    justify-content: space-between;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+}
+
+.clk:hover {
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, #ffffff1f 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(250, 249, 249, 0.17) 0px 12px 13px, rgba(250, 249, 249, 0.09) 0px -3px 5px !important;
+    transform: scale(1.05)!important;
+
+}
+
+.bg{
+
+    background: transparent;
+    backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(6, 60, 172, 0.03);
+    height: 200px;
+    color:white;
+}

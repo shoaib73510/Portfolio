@@ -1,0 +1,96 @@
+
+
+
+.back {
+  min-height: 100vh;
+
+}
+
+.cl {
+  color: white;
+}
+
+.content {
+  max-width: 700px;
+  
+}
+
+.bb {
+  background: transparent;
+  backdrop-filter: blur(13.4px);
+  -webkit-backdrop-filter: blur(13.4px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(6, 60, 172, 0.03);
+  margin-top: 170px;
+  color: white;
+  
+  
+
+}
+
+.pl {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .bak {
+    min-height: 100vh;
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+  .content {
+    max-width: 100%;
+    
+  }
+}
+
+.bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  
+    backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(6, 60, 172, 0.03);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 999;
+}
+
+/* Basic footer styles (for larger screens) */
+.bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  color: white;
+  text-align: center;
+  padding: 15px;  /* Adjust padding for better visibility */
+  z-index: 999;
+  font-size: 1rem;  /* Set a default font size */
+}
+
+/* For small screens (like mobile devices) */
+@media (max-width: 768px) {
+  .bottom-fixed {
+    padding: 10px;  /* Reduce padding on small screens */
+    font-size: 0.9rem;  /* Slightly smaller text */
+  }
+}
+
+
+.ppp{
+  margin-bottom: 50px;
+}
+
+

@@ -1,0 +1,33 @@
+.back {
+    background-image: linear-gradient(to bottom right, rgb(17, 2, 91), rgb(14, 0, 55), rgb(17, 2, 91));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .line1 {
+    font-size: calc(2rem + 2vw); /* Dynamically scales font size */
+  }
+  
+  .last {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .main {
+    max-width: 700px; /* Limits width for better readability */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .btn {
+    margin-top: 20px;
+  }
+  
+  .scs{
+
+    background-color: blueviolet;
+    color: white;
+    
+  }

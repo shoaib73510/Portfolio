@@ -1,0 +1,59 @@
+/* General Styling */
+.box1 {
+    width: 100%; /* Make the box responsive */
+    height: auto; /* Adjust height automatically */
+    margin-bottom: 30px; /* Add spacing between sections */
+  }
+  
+  .b1, .b2 {
+    padding: 15px; /* Add padding for a neat appearance */
+  }
+  
+  /* Container Styling */
+  .con {
+    height: auto; /* Adjust height automatically */
+    padding: 10px; /* Add padding to content */
+    margin-top: 20px; /* Create spacing for alignment */
+    background-color: #f0f0f0; /* Neutral background color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Text Styling */
+  .s {
+    color: blue; /* Add a color to the text */
+    font-size: 1rem; /* Ensure text size is readable */
+    margin-top: 20px; /* Space above the text */
+  }
+  
+  /* Adjust the Section Spacing */
+  .two, .three {
+    margin-top: 50px; /* Space between sections */
+  }
+  
+  .bb {
+    margin-top: 10px; /* Reduce spacing for smaller screens */
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .box1 {
+      margin-bottom: 20px; /* Reduce spacing for smaller screens */
+    }
+  
+    .b1, .b2 {
+      width: 100%; /* Stack items vertically */
+      margin-bottom: 15px; /* Create spacing between items */
+    }
+  
+    .s {
+      font-size: 0.9rem; /* Adjust font size for small screens */
+      margin-top: 10px; /* Reduce spacing for small screens */
+    }
+  
+    .con {
+      padding: 5px; /* Adjust padding for small screens */
+      margin-top: 10px; /* Adjust margin for small screens */
+    }
+  }
+  

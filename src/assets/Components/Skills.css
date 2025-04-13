@@ -1,0 +1,87 @@
+/* General Styles */
+
+
+.cl {
+  color: white;
+  font-weight: bold;
+}
+
+.tt {
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.js {
+  margin-left: -5px;
+}
+
+/* Card Styling for Skills */
+.skill-card {
+  background-color: #343a40;
+  border: 1px solid #dee2e6;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;  /* Ensure cards are responsive within the column */
+}
+
+.skill-card:hover {
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, #ffffff1f 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(250, 249, 249, 0.17) 0px 12px 13px, rgba(250, 249, 249, 0.09) 0px -3px 5px;
+  transform: scale(1.05);
+}
+
+.skill-card .card-body {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.skill-card img {
+  max-width: 50px;
+  margin-right: 15px;
+}
+
+.skill-card h4 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+/* Flexbox Layout for Cards */
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+
+ 
+
+  .cl {
+    font-size: 1.25rem;
+  }
+
+  .skill-card {
+    margin-bottom: 17px;
+    flex-basis: 45%;  /* Control the width on smaller screens */
+  }
+}
+
+.tap{
+  margin-top: 40px;
+  margin-bottom: 15px;
+}

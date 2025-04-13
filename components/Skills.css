@@ -1,0 +1,19 @@
+.back {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .cl {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .tt {
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+
+  .js{
+    margin-left: -5px;
+  }
+  

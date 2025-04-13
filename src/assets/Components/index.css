@@ -1,0 +1,13 @@
+
+
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(17, 2, 91), rgb(14, 0, 55), rgb(17, 2, 91));
+    color: #fff;
+    background-image: url("../public/wmremove-transformed.png");
+    background-repeat: no-repeat;
+  background-size: cover;
+
+  
+    
+}

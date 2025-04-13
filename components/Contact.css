@@ -1,0 +1,21 @@
+.gt{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.btn{
+    height: 70px;
+    width: 200px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.space{
+    justify-content: space-between;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+}

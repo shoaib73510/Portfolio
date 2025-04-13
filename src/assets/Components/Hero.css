@@ -1,0 +1,43 @@
+.back {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .line1 {
+    font-size: calc(2rem + 2vw); /* Dynamically scales font size */
+  }
+  
+  .last {
+    font-size: 1rem;
+    color: rgb(222, 201, 201);
+  }
+  
+  .main {
+    max-width: 700px; /* Limits width for better readability */
+    width: 100%;
+    padding: 20px;
+    
+  }
+  
+  .btn {
+    margin-top: 20px;
+  }
+  
+  .scs{
+
+    background-color: rgb(198, 159, 235);
+    color: white;
+    
+  }
+
+  .ll{
+
+    color: rgba(0, 0, 0, 0.566)!important;
+  }
+
+  .mmm{
+    margin-top: -50px;
+    margin-bottom: 70px;
+  }

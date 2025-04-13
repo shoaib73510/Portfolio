@@ -1,0 +1,33 @@
+.back {
+    
+    height: 100vh;
+  }
+  
+  .cl {
+    color: white;
+    
+  }
+  
+  .content {
+    max-width: 700px;
+    
+  }
+  
+
+  .bb{
+    background: rgba(6, 60, 172, 0.45);
+    backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(6, 60, 172, 0.03);
+    margin-top: 130px;
+    color:white;
+  }
+
+  .pl{
+color: white;
+
+  }
+
+
+  

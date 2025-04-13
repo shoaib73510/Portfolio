@@ -1,0 +1,107 @@
+.body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* General Styling */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.cnm {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 20px; /* Improved spacing */
+}
+
+/* Card Styling */
+.card {
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.4px);
+  -webkit-backdrop-filter: blur(13.4px);
+  border: 1px solid rgba(6, 60, 172, 0.03);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(255, 255, 255, 0.15);
+  transform: scale(1.02); /* Subtle hover effect */
+}
+
+/* Title Styling */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0; /* Add consistent spacing above and below */
+  color: #f5f5f5;
+  
+  
+  
+}
+
+/* Description Styling */
+.card-text {
+  font-size: 1rem;
+  text-align: justify;
+  margin: 10px 0; /* Add consistent spacing above and below */
+  color: #cfcfcf;
+}
+
+/* Image Styling */
+.card-img-top {
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1rem; /* Smaller font size for small screens */
+  }
+
+  .card-text {
+    font-size: 0.9rem; /* Adjust font size */
+    text-align: left; /* Left-align for readability */
+  }
+
+  .card {
+    margin-bottom: 15px; /* Space between cards */
+  }
+}
+
+.bottom-fixed {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 0;
+  
+
+}
+
+.card-body {
+  display: flex; /* Use Flexbox for alignment */
+  flex-direction: column; /* Stack title and description vertically */
+  justify-content: space-between; /* Equal space between elements */
+  height: 100%; /* Ensure consistent alignment within the card */
+}
+
+.navbar{ z-index: 1000; }
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
